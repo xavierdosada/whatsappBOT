@@ -1,0 +1,22 @@
+{
+  "name": "chat-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "psicology chatbot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xavier dosada",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "date-fns-tz": "^3.1.3",
+    "googleapis": "^105.0.0",
+    "nodemon": "^3.1.4",
+    "venom-bot": "^5.1.0",
+    "ws": "^8.18.0"
+  }
+}
